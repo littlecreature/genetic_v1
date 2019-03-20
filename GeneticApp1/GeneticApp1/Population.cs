@@ -8,13 +8,13 @@ namespace GeneticApp1
     {
 
         int popSize = 10;
-        public Individual[] individuals;
+        public Individual[] individuals = new Individual[10];
         public int fittest = 0;
 
         //Initialize population
         public void initializePopulation(int size)
         {
-            for (int i = 0; i < individuals.Count; i++)
+            for (int i = 0; i < size; i++)
             {
                 individuals[i] = new Individual();
             }
@@ -25,7 +25,7 @@ namespace GeneticApp1
         {
             int maxFit = int.MinValue;
             int maxFitIndex = 0;
-            for (int i = 0; i < individuals.Count; i++)
+            for (int i = 0; i < individuals.Length; i++)
             {
                 if (maxFit <= individuals[i].fitness)
                 {
@@ -42,7 +42,7 @@ namespace GeneticApp1
         {
             int maxFit1 = 0;
             int maxFit2 = 0;
-            for (int i = 0; i < individuals.Count; i++)
+            for (int i = 0; i < individuals.Length; i++)
             {
                 if (individuals[i].fitness > individuals[maxFit1].fitness)
                 {
@@ -62,7 +62,7 @@ namespace GeneticApp1
         {
             int minFitVal = int.MaxValue;
             int minFitIndex = 0;
-            for (int i = 0; i < individuals.Count; i++)
+            for (int i = 0; i < individuals.Length; i++)
             {
                 if (minFitVal >= individuals[i].fitness)
                 {
@@ -77,7 +77,7 @@ namespace GeneticApp1
         public void calculateFitness()
         {
 
-            for (int i = 0; i < individuals.Count; i++)
+            for (int i = 0; i < individuals.Length; i++)
             {
                 individuals[i].calcFitness();
             }

@@ -7,7 +7,7 @@ namespace GeneticApp1
     public class Individual
     {
         public int fitness = 0;
-        public List<int> genes = new List<int>();
+        public int[] genes = new int[5];
         public int geneLength = 5;
 
         public Individual()
@@ -15,7 +15,7 @@ namespace GeneticApp1
             Random rn = new Random();
 
             //Set genes randomly for each individual
-            for (int i = 0; i < genes.Count; i++)
+            for (int i = 0; i < genes.Length; i++)
             {
                 genes[i] = Math.Abs(rn.Next() % 2);
             }
