@@ -1,0 +1,11 @@
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\bin\Debug\netcoreapp2.1\GeneticApp1.deps.json
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\bin\Debug\netcoreapp2.1\GeneticApp1.runtimeconfig.json
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\bin\Debug\netcoreapp2.1\GeneticApp1.runtimeconfig.dev.json
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\bin\Debug\netcoreapp2.1\GeneticApp1.dll
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\bin\Debug\netcoreapp2.1\GeneticApp1.pdb
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\obj\Debug\netcoreapp2.1\GeneticApp1.csprojAssemblyReference.cache
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\obj\Debug\netcoreapp2.1\GeneticApp1.csproj.CoreCompileInputs.cache
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\obj\Debug\netcoreapp2.1\GeneticApp1.AssemblyInfoInputs.cache
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\obj\Debug\netcoreapp2.1\GeneticApp1.AssemblyInfo.cs
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\obj\Debug\netcoreapp2.1\GeneticApp1.dll
+C:\git\AI\genetic_v1\GeneticApp1\GeneticApp1\obj\Debug\netcoreapp2.1\GeneticApp1.pdb
